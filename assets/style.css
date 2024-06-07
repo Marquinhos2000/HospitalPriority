@@ -1,0 +1,146 @@
+body {
+    background-image: linear-gradient(to right top, #051937, #2f173e, #500f35, #661021, #6a2600);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 10;
+}
+
+.row2 {
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    text-align: center;
+}
+
+.row2 p {
+    padding: 8px;
+    background-image: linear-gradient(to right top, #ff9000, #ff9d38, #ffab59, #ffb877, #ffc594);
+    margin: 0;
+    border-radius: 10px;
+}
+
+.contenedor_status {
+    font-weight: bold;
+    background-color: #fff;
+    color: #000000;
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contenedor_status p {
+    padding: 5px;
+}
+
+.container_card_consultorio {
+    background-image: linear-gradient(to right top, #051937, #0e3e65, #0f6893, #0896c1, #12c6eb);
+    text-align: center;
+    padding: 2px;
+}
+
+.container_card_consultorio__table {
+    background-image: linear-gradient(to right top, #051937, #0e3e65, #0f6893, #0896c1, #12c6eb);
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    margin: 0;
+    text-align: center;
+    width: 50%;
+}
+
+.container_card_consultorio__table th {
+    padding: 20px;
+}
+
+.container_card_consultorio_table__tbody {
+    color: #fff;
+}
+
+.finalizar_btn {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contenedor_finalizar_btn {
+    background-image: linear-gradient(to right top, #000000, #0a0a0a, #121212, #181818, #1e1e1e);
+    width: 15%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.finalizar_btn:not(:disabled):hover {
+    cursor: pointer;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.card_consultorio {
+    padding: 50px;
+    width: 30%;
+    background-image: linear-gradient(to right top, #434343, #5a6072, #6282a4, #54a9d5, #00d3ff);
+    border: none;
+    border-radius: 30px;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: aquamarine;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background-image: linear-gradient(to right top, #051937, #4e285f, #a12a68, #e3414d, #ff8100);
+    border-radius: 30px;
+}
+
+.info_paciente {
+    padding: 30px;
+}
+
+.info_paciente p {
+    color: #fff;
+}
+
+.contenedor_ingresar_btn {
+    background-image: linear-gradient(to right top, #000000, #0a0a0a, #121212, #181818, #1e1e1e);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ingresar_btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ingresar_btn:not(:disabled):hover {
+    cursor: pointer;
+    background-color: #000000;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    transition: 0.3s;
+}
